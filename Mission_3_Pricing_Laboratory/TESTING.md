@@ -20,6 +20,9 @@ Checked October 30, 2026.
 - A clearly labeled disposable TEST ONLY decision was confirmed to test reports, not as the student's decision.
 - Both DOCX and JSON downloaded successfully from the published site.
 - The browser-downloaded DOCX is a valid ZIP/OOXML package; all XML entries parse, all ten report sections exist, and its price, profit and justification match the downloaded JSON.
+- Backup download and file-chooser import restore the configuration and require fresh evaluation.
+- Saving, loading and deleting a custom operating scenario work.
+- An unsustainable price is flagged; confirmation without acknowledgment is rejected and explicit acknowledgment permits the disposable test confirmation.
 - Reload retains the browser-local confirmation. Changing price invalidates the evaluation and confirmation and removes downloads.
 - Default report fixture rendered with LibreOffice and all seven resulting pages visually inspected; repeated table headers and unsplit rows verified.
 
