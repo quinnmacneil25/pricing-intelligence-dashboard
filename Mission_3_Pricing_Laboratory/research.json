@@ -1,0 +1,143 @@
+{
+  "venture": {
+    "name": "Smart Anti-Cramp Device",
+    "concept": "Proposed wearable monitors factors associated with cramp risk and gives personalized alerts and guidance.",
+    "market": "United States",
+    "customers": "Active people, especially ages 16\u201335, athletes and fitness users",
+    "features": [
+      "hydration and sweat loss",
+      "electrolyte balance",
+      "heart rate",
+      "temperature",
+      "muscle fatigue",
+      "risk alerts"
+    ],
+    "distribution": "Not specified; no channel assumed",
+    "status": "Concept; sensing and predictive performance not established"
+  },
+  "competitors": [
+    {
+      "id": "C01",
+      "name": "Nix Biosensors",
+      "classification": "Indirect",
+      "website": "https://nixbiosensors.com/",
+      "market": "United States",
+      "customers": "Endurance athletes, runners and cyclists",
+      "products": "Hydration Biosensor",
+      "positioning": "Specialized hydration wearable",
+      "features": "Real-time sweat analysis and hydration guidance; disposable patches",
+      "reason": "Closest US hydration monitoring substitute; no verified cramp-risk prediction"
+    },
+    {
+      "id": "C02",
+      "name": "FLOWBIO",
+      "classification": "Indirect",
+      "website": "https://flowbio.com/",
+      "market": "UK and international, including US",
+      "customers": "Cyclists, triathletes and runners",
+      "products": "FLOWBIO Sensor",
+      "positioning": "Premium endurance hydration sensor",
+      "features": "Continuous sweat and sodium loss; app and fitness-device integration",
+      "reason": "Competes on real-time personalized hydration; no verified cramp-risk prediction"
+    },
+    {
+      "id": "C03",
+      "name": "Fitbit (Google)",
+      "classification": "Indirect",
+      "website": "https://store.google.com/",
+      "market": "United States",
+      "customers": "General fitness consumers",
+      "products": "Fitbit Charge 6",
+      "positioning": "General-purpose fitness tracker",
+      "features": "Heart-rate and activity tracking, GPS and optional premium services",
+      "reason": "Competes for wearable fitness budgets; does not measure sweat sodium"
+    }
+  ],
+  "pricing_offers": [
+    {
+      "id": "P01",
+      "competitor_id": "C01",
+      "competitor": "Nix Biosensors",
+      "product": "Hydration Biosensor",
+      "description": "Rechargeable pod, charging case and four single-use patches",
+      "model": "One-time starter kit; replacement patches",
+      "price": 189.0,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "unit": "starter kit",
+      "features": "Live sweat analysis; personalized hydration guidance",
+      "representative": true,
+      "url": "https://nixbiosensors.com/collections/all-products",
+      "source_type": "Official product collection",
+      "date": "2026-10-27",
+      "status": "Verified",
+      "notes": "Official product details: https://nixbiosensors.com/products/hydration-biosensor ; future patch prices not verified."
+    },
+    {
+      "id": "P02",
+      "competitor_id": "C02",
+      "competitor": "FLOWBIO",
+      "product": "FLOWBIO Sensor",
+      "description": "Sweat sensor with companion app",
+      "model": "One-time sensor",
+      "price": 295.0,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "GBP",
+      "unit": "sensor",
+      "features": "Real-time fluid and sodium loss",
+      "representative": true,
+      "url": "https://flowbio.com/products/flowbio-sensor",
+      "source_type": "Official product page",
+      "date": "2026-10-27",
+      "status": "Verified",
+      "notes": "GBP listing; non-UK import duties may apply. Requires compatible fitness tracker. Not converted to USD."
+    },
+    {
+      "id": "P03",
+      "competitor_id": "C03",
+      "competitor": "Fitbit (Google)",
+      "product": "Fitbit Charge 6",
+      "description": "Wrist-worn fitness tracker",
+      "model": "One-time device; optional premium membership",
+      "price": 159.95,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "unit": "device",
+      "features": "Activity and heart-rate tracking",
+      "representative": true,
+      "url": "https://store.google.com/product/fitbit_charge_6?hl=en-US",
+      "source_type": "Official product page",
+      "date": "2026-10-27",
+      "status": "Verified",
+      "notes": "Google lists financing separately; optional premium charges after trial not verified. USD price reflects retrieved page; checkout can differ."
+    }
+  ],
+  "comparison": {
+    "scope": "USD representative one-time upfront device or starter-kit prices; Fitbit and Nix serve different needs",
+    "included_offer_ids": [
+      "P01",
+      "P03"
+    ],
+    "minimum": 159.95,
+    "maximum": 189,
+    "average": 174.475,
+    "median": 174.475
+  },
+  "preliminary_recommendation": {
+    "currency": "USD",
+    "low": 149,
+    "high": 199,
+    "unit": "starter kit",
+    "rationale": "Test near Fitbit and Nix, conditional on validated usefulness and affordable ongoing cost; not an optimized price"
+  },
+  "limitations": [
+    "Price snapshots may change; no shipping, taxes, import duties or patch replacements included.",
+    "Products differ in features and customer segment; two USD observations are not a market-wide distribution.",
+    "FLOWBIO is listed in GBP and excluded from USD summary.",
+    "No cramp prevention or sensor accuracy claim for the proposed device is established.",
+    "Pricing, feasibility, costs, demand and willingness to pay require further validation."
+  ]
+}
