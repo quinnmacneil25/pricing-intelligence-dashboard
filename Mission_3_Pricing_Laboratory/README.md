@@ -19,7 +19,7 @@ Annual USD horizon. One-time kits count annual orders. Monthly plans count annua
 
 Product-level overhead allocation uses revenue or units. Business totals count overhead once. Multi-product break-even holds the entered sales mix constant; it is unavailable when no sales mix or positive contribution exists. Rounded break-even units and unrounded break-even revenue are shown separately.
 
-Cost defaults are illustrative, not supplier quotes or verified industry averages. Official cost benchmark searches returned no usable results. Mission 1 JSON and report were inspected; the spreadsheet could not be parsed by the connected reader. The original website repository was empty and no live URL was provided, so the exports preserve the supplied repository and explicitly mark the live URL missing.
+Cost defaults are illustrative, not supplier quotes or verified industry averages. Official cost benchmark searches returned no usable results. Mission 1 JSON, report and all five workbook sheets were inspected and agree on the venture and recorded prices. The original website repository was empty and no live URL was provided, so the exports preserve the supplied repository and explicitly mark the live URL missing.
 
 ## Review and exports
 
